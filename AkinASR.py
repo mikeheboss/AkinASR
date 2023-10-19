@@ -72,7 +72,7 @@ def gioca():
                         elif rigioca_due == 'no':
                             break
                         else:
-                            ctypes.windll.user32.MessageBoxW(0, 'bravo recchia adesso devi restartare il programma, ti stavo facilitando le cose', 'recchione', 1) 
+                            ctypes.windll.user32.MessageBoxW(0, 'bravo adesso devi restartare il programma, ti stavo facilitando le cose', 'stolto', 1) 
                             break
         elif risposta == "no":
             domande_rimanenti -= 1
